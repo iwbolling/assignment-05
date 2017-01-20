@@ -67,12 +67,48 @@
 
 .article h2{
   font-size: 32px;
+  margin: 48px 0 0 0;
 }
 
 .article p{
   line-height: 1.6;
 }
 
-.hotlink{
+.campustext, .campusimage{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.campustext{
+  font-size: medium;
+  line-height: 1.6;
+  width: 50%;
+}
+
+.campustext .hotlink{
   color: #3E7FBB;
+}
+
+.campusimage{
+  padding-left: 32px;
+  width: 50%;
+}
+
+.campusimage img{
+  padding: 16px;
+  width: 100%;
+}
+
+.artschoolimage, .artschooltext{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.artschooltext{
+  font-size: medium;
+  width: 70%;
+}
+
+.artschoolimage{
+  width: 30%;
 }
