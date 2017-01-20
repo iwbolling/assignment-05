@@ -1,3 +1,78 @@
 *{box-sizing: border-box;}
 
 #fullpage{font-family: "Helvetica Neue", "Helvetica","sans-serif";}
+
+.columnscontainer{font-size: 0;}
+
+.header{
+  background-color: #282828;
+}
+
+.logo, .label{
+  display: inline-block;
+  vertical-align: bottom;
+}
+.logo img, .label img{
+  width: 100%;
+}
+
+.logo{
+  width: 15%;
+}
+
+.label{
+  width: 60%;
+}
+
+.navlinks{
+  color: white;
+  display: inline-block;
+  font-size: initial;
+  text-align: center;
+  width: 9%;
+}
+
+.articlepath{
+  font-size: 16px;
+  margin: 16px 32px;
+}
+
+.homepath, .aboutpath, .currentpath{
+  display: inline-block;
+  margin: 4px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.homepath p, .aboutpath p{
+  background-color: #FCF9E4;
+  color: #3E7FBB;
+  padding: 8px;
+}
+
+.currentpath p{
+  background-color: #D8EDF7;
+  padding: 8px;
+}
+
+.article{
+  font-size: medium;
+  padding: 0 32px;
+  width: 80%
+}
+
+.article h1{
+  font-size: 40px;
+}
+
+.article h2{
+  font-size: 32px;
+}
+
+.article p{
+  line-height: 1.6;
+}
+
+.hotlink{
+  color: #3E7FBB;
+}
