@@ -58,7 +58,7 @@
 .article{
   font-size: medium;
   padding: 0 32px;
-  width: 80%
+  width: 75%
 }
 
 .article h1{
@@ -103,12 +103,24 @@
   display: inline-block;
   vertical-align: top;
 }
+.artschoolimage{
+  width: 30%;
+}
+
+.artschoolimage img{
+  padding: 16px 16px 16px 0;
+  width: 100%;
+}
 
 .artschooltext{
   font-size: medium;
   width: 70%;
 }
 
-.artschoolimage{
-  width: 30%;
+.artschooltext{margin-top: 10px}
+
+.artschoolcaption p{
+  display: block;
+  font-weight: bold;
+  margin: 4px 0;
 }
